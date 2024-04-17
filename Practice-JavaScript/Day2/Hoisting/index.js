@@ -30,3 +30,4 @@ sayBye(); // type error (sayBye is not a function)
 const sayBye = function () {
   console.log("Byee!!");
 };
+// 
