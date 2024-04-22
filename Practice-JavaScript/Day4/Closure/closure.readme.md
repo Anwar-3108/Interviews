@@ -21,3 +21,4 @@ It's crucial to be mindful of the scope chain when working with closures to avoi
 
 **Here is a youtube video for indepth explanation**
 [youtube](https://youtu.be/d4_hcQkGkfI?si=KznSwnWIgU4G4VgG)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
