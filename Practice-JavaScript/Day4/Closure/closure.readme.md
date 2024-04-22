@@ -17,3 +17,7 @@ Closures have access to their own local variables, the outer function's variable
 **Exceptions:**
 Closures can lead to memory leaks if not used carefully, as they retain references to the outer scope variables, preventing them from being garbage collected.
 It's crucial to be mindful of the scope chain when working with closures to avoid unintended memory consumption or variable access issues.
+
+
+**Here is a youtube video for indepth explanation**
+[youtube](https://youtu.be/d4_hcQkGkfI?si=KznSwnWIgU4G4VgG)
