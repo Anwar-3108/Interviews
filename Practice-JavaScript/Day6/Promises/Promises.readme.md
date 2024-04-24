@@ -19,5 +19,5 @@ A Promise is created using the new **Promise()** constructor, which takes a call
 Inside the executor function, you perform the asynchronous operation. When the operation completes successfully, you call **resolve()** with the result. If it fails, you call **reject()** with an error.
 Consumers of the Promise can then use the **then()** method to handle the fulfilled state and the **catch()** method to handle the rejected state
 
-For More Clarifications Open the Below Link 
+For More Clarifications Open the Link 
 [Youtube-Video](https://youtu.be/RpxX1QIWlVs?si=5HfgSB0QvQA__C6K)
