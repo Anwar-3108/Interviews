@@ -22,3 +22,23 @@ const removeEventListeners = () => {
 };
 
 document.getElementById("reset").onclick = removeEventListeners;
+
+
+
+// function run1() {
+//   const startTime = Date.now(); // Get the starting time
+  
+//   return function print() {
+//     for (var i = 0; i <= 5; i++) {
+//       (function(i){
+//           setTimeout(() => {
+//               const elapsedTimeInSeconds = (Date.now() - startTime) / 1000; // Calculate elapsed time in seconds
+//               console.log(i, "time:", elapsedTimeInSeconds.toFixed(2)); // Log elapsed time in seconds
+//             }, i * 2 * 1000);
+//       })(i)
+//     }
+//   };
+// }
+
+// let finalRun = run1();
+// finalRun();
