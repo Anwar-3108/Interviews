@@ -2,7 +2,7 @@ import React from "react";
 
 const MyTable = ({ expensesdetails }) => {
   const totalCost = expensesdetails.reduce(
-    (acc, expense) => acc + expense.cost,
+    (acc, curr) => acc + curr.cost,
     0
   );
   return (
