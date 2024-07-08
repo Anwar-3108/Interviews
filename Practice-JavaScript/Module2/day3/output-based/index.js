@@ -152,15 +152,41 @@
 // }
 
 // getValue()
-
+   
 //output = Hello world after
 
 //----------------------------------
 //question number #10
-function abc(){
-    console.log("hi")
-}
-const value = new abc();
-console.log(value)
+// function abc(){
+//     console.log("hi")
+// }
+// const value = new abc();
+// console.log(value)
 
 
+//----------------------------------
+//question number #11
+
+// let details ={
+//     "user-name":"abcd",
+//     "age":"23"
+// }
+// let details2 ={
+//     user :"abcd",
+//     age :"23"
+// }
+
+// details["user-name"];
+
+// let {user, age}=  details2 ;
+
+// console.log(user, age)
+
+//----------------------------------
+//question number #12
+
+// create a expense tracker app in react  
+    // there will name and cost of exprense 
+    // there will a button to add new expense
+    // there will a list of all expesnes with name and cost
+    // there will a total cost of all expesnes
