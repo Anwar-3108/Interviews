@@ -109,7 +109,16 @@
 // }
 //output= 4 4 4
 
-// for (let i = 1; i <= 3; i++) {
+
+
+// for(let i =1 ; i<=3 ; i++){
+//     setTimeout(()=>{
+//         console.log(i)
+//     },1000)
+// }
+
+
+// for (var i = 1; i <= 3; i++) {
 //   function cacl(i) {
 //     setTimeout(() => {
 //       console.log(i);
@@ -119,6 +128,26 @@
 //   cacl(i);
 // }
 //output =1 2 3
+
+
+// for(let i =1 ;i<=3 ;i++){
+//     function cacl(i){
+//         setTimeout(()=>{
+//             console.log(i)
+//         },1000)
+//     }
+//     cacl(i)
+// }
+
+
+// for(let i =1 ;i<=8 ;i++){
+//     function cacl(i){
+//         setTimeout(()=>{
+//             console.log(i)
+//         },1000*i)
+//     }
+//     cacl(i)
+// }
 
 //----------------------------------
 
