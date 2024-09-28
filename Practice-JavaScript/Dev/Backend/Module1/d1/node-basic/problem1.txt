@@ -1,14 +1,13 @@
 Instructions
 
 create a simple nodejs program to:
- edit files, based on arguments passed.✅
+        edit files, based on arguments passed.✅
 
 the program will support:
- basic file reading,
-  deleting,
-   creating
-    and 
-    appending operations
+        basic file reading,✅
+        deleting,✅
+        creating✅
+        appending operations✅
 
     
 node index.js read test.txt will output the content of file

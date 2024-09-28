@@ -1,0 +1,17 @@
+Create an argument-based calculator in Node.js. The code should take arguments from the terminal and, based on those arguments, perform the requested operation.
+
+Example:
+node index.js add 1 2
+Output: 3
+
+Supported operations:
+- add: Adds two numbers (e.g., node index.js add 1 2)✅
+- sub: Subtracts the second number from the first (e.g., node index.js sub 5 3)✅
+- mult: Multiplies two numbers (e.g., node index.js mult 2 3)✅
+- divide: Divides the first number by the second (e.g., node index.js divide 6 2)✅
+- sin: Calculates the sine of the number (e.g., node index.js sin 90)✅
+- cos: Calculates the cosine of the number (e.g., node index.js cos 0)✅
+- tan: Calculates the tangent of the number (e.g., node index.js tan 45)✅
+- random: Generates a random number. You can optionally pass a length for the random number (e.g., node index.js random 10).✅
+
+Note: Use the 'crypto' module to generate random numbers securely.

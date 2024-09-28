@@ -54,10 +54,14 @@ console.log("File copied!!")
 
 // file list in directory
 
+/*
 fs.readdir("./", (err, files) => {
   if (err) throw err;
   console.log("Files in the current directory: ", files);
 });
+*/
+
+
 
 // delete file
 
