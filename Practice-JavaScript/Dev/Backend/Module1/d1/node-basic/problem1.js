@@ -34,7 +34,6 @@ update("This is an additional line\n");
 
 */
 
-
 //rename file
 
 /* 
@@ -42,12 +41,10 @@ fs.rename("./test.txt", "newTest.txt", (err) => {
     if (err) throw err;
     console.log("File renamed successfully");
 })
-*/    
+*/
 
+//copy file
 
-
-//copy file 
- 
 /*
 fs.copyFile("./newTest.txt", "./copiedFile.txt",(err, data)=>{
 if(err) console.log("error while coping file");
@@ -55,8 +52,12 @@ console.log("File copied!!")
 })
 */
 
+// file list in directory
 
-
+fs.readdir("./", (err, files) => {
+  if (err) throw err;
+  console.log("Files in the current directory: ", files);
+});
 
 // delete file
 
@@ -64,4 +65,3 @@ console.log("File copied!!")
 //   if (err) throw err;
 //   console.log("File deleted successfully");
 // });
-
