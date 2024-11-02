@@ -49,16 +49,37 @@
 // The first and last rows contain 5 asterisks separated by spaces.
 // The middle N - 2 rows each contain a single asterisk (*).
 
+// ============== SOLUTIONS ================= //
+
+// Solution 1:
+
+// const prompt = require("prompt-sync")();
+// const N = parseInt(prompt("Enter the value of N: "));
+
+// console.log("* ".repeat(N).trim());
+// for (let i = 0; i < N - 2; i++) {
+//   console.log("*");
+// }
+
+// console.log("* ".repeat(N).trim());
 
 
-// ============== SOLUTION ================= // 
+
+
+// Solution 2:
 
 const prompt = require("prompt-sync")();
+
 const N = parseInt(prompt("Enter the value of N: "));
 
-console.log("* ".repeat(N).trim());
-for (let i = 0; i < N - 2; i++) {
-  console.log("*");
+for (let i = 0; i < N; i++) {
+  if (i === 0 || i === N - 1) {
+    let row = "";
+    for (let j = 0; j < N; j++) {
+      row += "* ";
+    }
+    console.log(row);
+  } else {
+    console.log("*");
+  }
 }
-
-console.log("* ".repeat(N).trim());
