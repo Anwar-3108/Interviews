@@ -40,6 +40,8 @@
 // The first four rows form the sides of a "U" with two asterisks and five spaces in between.
 // The last row completes the "U" shape by containing 5 asterisks, all separated by spaces.
 
+// SOLUTION 1: 
+
 const prompt = require("prompt-sync")();
 
 const N = parseInt(prompt("Enter the value of N: "));
