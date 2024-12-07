@@ -1,6 +1,6 @@
 # How does Node.js handle child threads?
 
-Node.js uses a single-threaded event loop for most operations, but when it comes to tasks that require more computational power or involve blocking operations, Node.js can offload these tasks to child threads. This is done using tools like the worker threads module or the built-in thread pool provided by libuv.
+Node.js uses a hybrid model single-threaded event loop for most operations, but when it comes to tasks that require more computational power or involve blocking operations, Node.js can offload these tasks to child threads. This is done using tools like the worker threads module or the built-in thread pool provided by libuv.
 
 ---
 
