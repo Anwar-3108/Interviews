@@ -10,6 +10,7 @@ One of the things I appreciate about Node.js is its event-driven architecture, w
 
 Its single-threaded architecture, combined with a thread pool, allows Node.js to perform non-blocking operations effectively while keeping development straightforward. And because it’s optimized for scalability, it's great for high-demand web applications where throughput is key.
 
+
 ---
 
 # Why Use Node.js?
