@@ -7,14 +7,14 @@ in JavaScript callbacks are havily used in asynchronous programming because taks
 
 there are two types of callback functions
 
-1. [synchronous callbacks](../Code/Module1/d2/callbacks/syncronous-callbacks.js)
-2. [asynchronous callbacks](../Code/Module1/d2/callbacks/asyncronous-callbacks.js)
+1. [synchronous callbacks](../../../Code/Module1/d2/callbacks/syncronous-callbacks.js)
+2. [asynchronous callbacks](../../../Code/Module1/d2/callbacks/asyncronous-callbacks.js)
 
 ---
 
 # Callback Hell
 
-In real world, if we chain multiple callbacks together in a deeply nested code, it is hard to read and maintain and this thing is called callback-hell. [example](../Code/Module1/d2/callbacks/callback-hell.js)
+In real world, if we chain multiple callbacks together in a deeply nested code, it is hard to read and maintain and this thing is called callback-hell. [example](../../../Code/Module1/d2/callbacks/callback-hell.js)
 
 in the large codebase we don't use this so the alternate of callback is Promises or async/await to make it clean
 
@@ -30,8 +30,8 @@ JavaScript is single threaded but it uses and event loop for asynchronous tasks,
 
 The main alternatives are:
 
-1. [Promises](../Code/Module1/d2/promises/promises.js)
-2. [async/await](../Code/Module1/d2/async-await/async-await.js)
+1. [Promises](../../../Code//Module1/d2/promises/promises.js)
+2. [async/await](../../../Code/Module1/d2/async-await/async-await.js)
 
 # _Promises_
 
