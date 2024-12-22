@@ -46,5 +46,6 @@ async/await is built on top of Promises it allows us to write asynchronous opera
 
 In practice, both async/await and promises are widely used but there are some use cases:
 
-promises: useful to handling multiple asynchronous operations concurrently
-async/await: preffer when you have a sequence of multiplem dependent asyncronous tasks as it imporoves readability
+*promises:* useful to handling multiple asynchronous operations concurrently.
+
+*async/await:* preffer when you have a sequence of multiplem dependent asyncronous tasks as it imporoves readability.
