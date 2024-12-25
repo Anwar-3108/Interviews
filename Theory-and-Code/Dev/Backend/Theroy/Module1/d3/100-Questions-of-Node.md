@@ -87,4 +87,18 @@ V8 is a high-performance JavaScript engine developed by Google. It is written in
 
 ---
 
+# (3) What is the difference between runtime environment?
+
+Difference Between Runtime Environment and Framework
+1. Runtime Environment
+A runtime environment provides the necessary tools, libraries, and infrastructure to execute code written in a specific programming language.
+
+Example: Node.js (for JavaScript), JVM (for Java).
+Key Role: It ensures the program can run, handling tasks like memory management, file I/O, and OS-level interactions.
+2. Framework
+A framework is a pre-built structure or abstraction that provides reusable components and guidelines for building applications.
+
+Example: Express.js (for Node.js), Django (for Python).
+Key Role: It simplifies development by offering pre-written modules, design patterns, and best practices.
+
 
