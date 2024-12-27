@@ -90,26 +90,32 @@ V8 is a high-performance JavaScript engine developed by Google. It is written in
 # (3) What is the difference between runtime environment and framework?
 
 1. Runtime Environment
+
 A runtime environment is like the engine of a car. It provides the core functionality needed to run a program but doesn't dictate how you build the car itself. It ensures that the code you've written can execute, interacting with the operating system, memory, or other resources.
 
-For example:
+_For example:_
 
 Node.js is a runtime environment for JavaScript.
 It provides tools like the libuv library (for handling asynchronous operations) and access to the V8 engine (to compile JavaScript into machine code).
 It gives you APIs like fs for file system operations, http for creating servers, and more.
-Key Features of Runtime Environments:
+
+
+_Key Features of Runtime Environments:_
 
 Provide the tools, libraries, and platform to execute code.
 Focus is on code execution and interaction with the underlying system.
+
 2. Framework
+
 A framework is like a blueprint or template for building an application. It provides pre-defined structures, reusable components, and best practices to make development easier and more efficient. Unlike a runtime, which just runs your code, a framework actively shapes how you write your code by giving you predefined modules and enforcing certain patterns.
 
-For example:
+_For example:_
 
 Express.js is a framework built on top of Node.js.
 It provides tools for routing, middleware, request handling, and response processing.
 While Node.js handles "how to run JavaScript outside a browser," Express guides you on "how to build web servers and APIs efficiently."
-Key Features of Frameworks:
+
+_Key Features of Frameworks:_
 
 Provide a structured way to develop applications.
 Focus is on application logic and design patterns.
