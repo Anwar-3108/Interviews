@@ -123,4 +123,28 @@ Built on top of a runtime environment (like Express is built on Node.js).
 
 
 
+---
 
+# (4) What are the 7 main features of node.js?
+
+1. Asynchronous and Event Driven:
+in node.js, operations like readig a file or querying from the databases don't block the execution of the other tasks. instead these tasks runs in the background and rusults are handled via callback/promises and async/await
+
+2. Single-Threaded Model with Event Loop:
+Node.js runs on a single thread and handles multipe concurrent requests using an event-loop, this architecture simplifies the development while beign capable to handel multiple concurrent requests
+
+3. Built on the V8 JavaScript Engine:
+Node.js uses google's v8 engine, which compiles javascript to machine-code making it lightweight and fast.
+
+4. Cross-Platform Compatibility:
+Node.js works on major operating systems like Windows, macOS, and Linux.
+
+5. NPM (Node Package Manager):
+Node.js comes with the world’s largest ecosystem of open-source libraries through its package manager, NPM.
+With over a million packages, NPM reduces development time by offering reusable modules for everything from authentication to data validation.
+
+6. Non-Blocking I/O:
+Node.js uses non-blocking I/O operations, meaning it doesn’t wait for tasks like file or network requests to complete before moving to the next one.
+
+7. Rich Ecosystem of Modules: 
+Node.js provides a variety of built-in modules (like http, fs, os, etc.) for common tasks, reducing the need for external dependencies.
