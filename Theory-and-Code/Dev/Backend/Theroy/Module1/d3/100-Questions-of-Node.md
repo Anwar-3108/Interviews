@@ -216,3 +216,8 @@ console.log('End');
 _Limited Use of CPU:_
 
 Since only one thread is active, single-threaded programs don’t fully utilize multi-core CPUs.
+
+# Why Does Node.js Use Single-Threading?
+
+Node.js uses a single-threaded event loop because it simplifies handling asynchronous I/O.
+For CPU-intensive tasks, Node.js can use worker threads or external tools to delegate work to other cores while keeping the main thread free for handling incoming requests.
