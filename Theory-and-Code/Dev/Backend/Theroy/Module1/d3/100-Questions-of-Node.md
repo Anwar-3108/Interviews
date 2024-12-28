@@ -128,23 +128,91 @@ Built on top of a runtime environment (like Express is built on Node.js).
 # (4) What are the 7 main features of node.js?
 
 1. Asynchronous and Event Driven:
+
 in node.js, operations like readig a file or querying from the databases don't block the execution of the other tasks. instead these tasks runs in the background and rusults are handled via callback/promises and async/await
 
 2. Single-Threaded Model with Event Loop:
+
 Node.js runs on a single thread and handles multipe concurrent requests using an event-loop, this architecture simplifies the development while beign capable to handel multiple concurrent requests
 
 3. Built on the V8 JavaScript Engine:
+
 Node.js uses google's v8 engine, which compiles javascript to machine-code making it lightweight and fast.
 
 4. Cross-Platform Compatibility:
+
 Node.js works on major operating systems like Windows, macOS, and Linux.
 
 5. NPM (Node Package Manager):
+
 Node.js comes with the world’s largest ecosystem of open-source libraries through its package manager, NPM.
 With over a million packages, NPM reduces development time by offering reusable modules for everything from authentication to data validation.
 
 6. Non-Blocking I/O:
+
 Node.js uses non-blocking I/O operations, meaning it doesn’t wait for tasks like file or network requests to complete before moving to the next one.
 
 7. Rich Ecosystem of Modules: 
+
 Node.js provides a variety of built-in modules (like http, fs, os, etc.) for common tasks, reducing the need for external dependencies.
+
+
+
+# (5) What is single threaded programming?
+
+In simple terms, single-threaded programming means the program runs on a single thread of execution. A thread is like a worker that performs tasks in a program. In a single-threaded environment, there is only one worker available to execute instructions, one after the other, in a sequential manner.
+
+
+# How Does Single-Threaded Programming Work?
+
+_Linear Execution:_
+
+The program executes one instruction at a time in the order it appears, similar to how we complete tasks on a to-do list.
+
+_No Parallelism:_
+
+Because there is only one thread, the program cannot perform multiple tasks simultaneously. It must finish one task before moving to the next.
+
+
+# Single-Threaded in Node.js
+
+Node.js is often described as single-threaded, but it uses asynchronous programming and the event loop to handle multiple tasks efficiently. While the main thread runs JavaScript code, tasks like file operations or network requests are offloaded to other threads (handled by the libuv thread pool), and their results are queued back for execution.
+
+# Advantages of Single-Threaded Programming
+
+_Simplicity:_
+
+Easy to write and debug since there are no concerns about multiple threads accessing shared resources.
+
+_No Thread Synchronization Issues:_
+
+No need to handle problems like race conditions or deadlocks that occur in multi-threaded programming.
+
+
+# Disadvantages of Single-Threaded Programming
+
+_Blocking Operations:_
+
+A long-running task can block the entire thread, making the application unresponsive until the task finishes.
+
+
+_Example:_
+
+```
+console.log('Start');
+
+// Simulating a blocking task
+function longTask() {
+    const startTime = Date.now();
+    while (Date.now() - startTime < 3000) {} // Blocks for 3 seconds
+    console.log('Long task finished');
+}
+
+longTask(); // Blocking operation
+console.log('End');
+```
+
+
+_Limited Use of CPU:_
+
+Since only one thread is active, single-threaded programs don’t fully utilize multi-core CPUs.
