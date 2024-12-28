@@ -264,3 +264,32 @@ Synchronous programming is a programming model where tasks are executed sequenti
 
  - In server-side programming, synchronous tasks can result in poor performance when handling multiple requests, as each request would wait for the previous one to complete.
 
+
+---
+
+
+# (7) What is Multi-Threaded Programming?
+
+Multi-threaded programming is a programming paradigm where a program can execute multiple threads simultaneously. A thread is the smallest unit of a process that can be scheduled and executed independently. [example]('../../../../../Code/Module1/d2/event-loop/worker-thread.js)
+
+This model allows tasks to run concurrently within the same program, taking full advantage of multi-core processors.
+
+# How Does Multi-Threaded Programming Work?
+
+To understand multi-threaded programming, think of a restaurant kitchen:
+
+- Each chef is like a thread, working on a specific task (chopping vegetables, boiling water, grilling).
+
+- The kitchen (the program) can handle multiple orders at once because the chefs (threads) work concurrently.
+
+
+# Key Characteristics of Multi-Threaded Programming
+1. Concurrency:
+Threads share the same process memory and resources, enabling them to perform tasks simultaneously.
+
+2. Parallelism (in multi-core systems):
+Different threads can run on different processor cores, improving performance.
+
+3. Shared Resources:
+Threads within the same process can access shared data, but this requires careful synchronization to avoid conflicts.
+
