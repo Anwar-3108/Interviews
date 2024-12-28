@@ -156,7 +156,7 @@ Node.js uses non-blocking I/O operations, meaning it doesn’t wait for tasks li
 
 Node.js provides a variety of built-in modules (like http, fs, os, etc.) for common tasks, reducing the need for external dependencies.
 
-
+---
 
 # (5) What is single threaded programming?
 
@@ -221,3 +221,4 @@ Since only one thread is active, single-threaded programs don’t fully utilize 
 
 Node.js uses a single-threaded event loop because it simplifies handling asynchronous I/O.
 For CPU-intensive tasks, Node.js can use worker threads or external tools to delegate work to other cores while keeping the main thread free for handling incoming requests.
+
