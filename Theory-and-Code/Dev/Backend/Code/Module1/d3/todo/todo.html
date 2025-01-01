@@ -1,37 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        .todo-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 10px 0;
-        }
-        .todo-item span {
-            flex: 1;
-        }
-        .actions button {
-            margin-left: 5px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="./todo.css">
 </head>
 <body>
+  <div class="container">
     <h1>To-Do App</h1>
-    <input type="text" id="todoInput" placeholder="Enter your task" />
-    <button id="addTodoButton">Add Task</button>
+    <div class="input-container">
+      <input id="todoInput" type="text" placeholder="Add a new task">
+      <button id="addTodoButton">Add</button>
+    </div>
     <ul id="todoList"></ul>
-    <script src="todo.js"></script>
+  </div>
+  <script src="./todo.js"></script>
 </body>
 </html>
