@@ -45,6 +45,9 @@ addTodoButton.addEventListener("click", addTodo);
 
 //   console.log(taskText);
 // }
+
+
+
 renderTodos();
 function addTodo() {
   const taskText = todoInput.value.trim();
